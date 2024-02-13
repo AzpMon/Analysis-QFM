@@ -5,7 +5,6 @@ import torch
 ###############################################################################################
 #Ansatz y kernel (generales)
 kernel_v2_dev = lambda qubits: qml.device(name="default.qubit", wires = qubits)
-create_params_k2 = lambda  layers,qubits : torch.randn(layers, qubits, requires_grad = True)
 
 #Ansatz Circuit (Quantum Feature Map)
 def ansatz_v2(qubits, layers,params,  dato):
