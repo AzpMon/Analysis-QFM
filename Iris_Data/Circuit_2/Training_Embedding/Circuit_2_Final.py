@@ -121,7 +121,7 @@ params_4layers_12 = torch.tensor([[-1.8875, -1.8171,  1.0721,  0.0945],
          [-2.7552,  1.1530, -0.6033,  0.0553],
          [ 2.1404, -2.6744,  2.0857,  0.1950],
          [ 0.1954, -0.2516, -0.8069,  0.0248]], requires_grad=True)
-def ansatz_3layers_12(x):
+def ansatz_4layers_12(x):
     return  ansatz_v2(qubits=4, layers=4,params=params_4layers_12, dato = x)
 
 #Kernel 20   (Falta)
