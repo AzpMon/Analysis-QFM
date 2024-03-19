@@ -1,2 +1,2 @@
-# CIC-IPN-Quantum-Machine-Learning-
-Código y resultados de las actividades realizadas en el Centro de Investigación en Computación del IPN en Aprendizaje de Máquina Cuántico utilizando Pennylane.
+# Quantum-Machine-Learning-QFM_analysis_CIC_IPN
+Code and results about the analysis of Quantum Feature Maps through  Kullback–Leibler divergence for Supervised Quantum Machine Learning using Pennylane.
