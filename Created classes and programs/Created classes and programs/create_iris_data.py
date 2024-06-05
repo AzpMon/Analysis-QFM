@@ -1,11 +1,7 @@
 import torch
-from pennylane import numpy as np
-import pennylane as qml
+import numpy as np
 import pandas as pd
 from sklearn.datasets import load_iris
-from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import train_test_split
-import torch
 
 #Creación de los datos y estandarización de los datos predictores
 X,Y = load_iris(return_X_y=True)
