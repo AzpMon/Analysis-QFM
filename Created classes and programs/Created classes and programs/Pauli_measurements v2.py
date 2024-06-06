@@ -454,7 +454,7 @@ class Pauli_measurements:
         axs[0].grid(True)  # Add grid
 
         sns.kdeplot(x=self._sample_space_u, y=self._sample_space_v,cmap = cmap2, weights=probs2.flatten(), fill=True, ax=axs[1],alpha=0.8,  cbar=False, levels = levels)
-        axs[1].set_title(f'Quantum KDE {self._label2}')
+        axs[1].set_title(f'Quantum KDE (label {self._label2})')
         axs[1].set_xlabel(f'$\\langle {observable_1.upper()} \\rangle$')
         axs[1].set_ylabel(f'$\\langle {observable_2.upper()} \\rangle$')
         axs[1].set_xlim([-1, 1])
